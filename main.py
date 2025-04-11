@@ -14,3 +14,9 @@ if location:
     st.write("📍 Fonte de dados:", "Possivelmente GPS se a precisão for < 10 metros")
 else:
     st.warning("Aguardando permissão para acessar a localização...")
+
+
+picture = st.camera_input("Tire uma foto")
+
+if picture:
+    st.image(picture)
