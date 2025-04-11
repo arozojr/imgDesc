@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_js_eval import streamlit_js_eval, get_geolocation
 
-st.title("📍 Localização do Usuário (via GPS do Celular)")
+st.title("📍Loc. do User (via GPS do Celular)!")
 
 # Obtém localização com precisão, se o navegador permitir
 location = get_geolocation()
